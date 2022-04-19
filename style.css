@@ -137,26 +137,29 @@ body {
         display: block;
     }
 
-    .btn {
-        position: absolute;
-        top: 35%;
-        left: 50%;
-        border: none;
-        color: #aaa;
-        padding: 16px;
-        transform: translateX(-50%);
-        background-color: #fff;
+    .btn:hover{
     }
 
     .btn.left-arrow{
-        transform: translateX(-75%) translateY(-100%);
+        transform: translateX(-100%) translateY(-100%);
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
 
     .btn.right-arrow {
-        transform: translateX(25%);
+        transform: none;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
+    }
+
+    .btn {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        border: none;
+        color: #222;
+        padding: 16px;
+        transform: translateX(-50%);
+        background-color: #fff;
     }
 }
